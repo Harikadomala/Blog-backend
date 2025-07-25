@@ -11,7 +11,7 @@ const app = express();
 
 // Middleware
 app.use(cors({ 
-  origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175'], 
+  origin: ['https://blog-frontend-1lj8.onrender.com/'], 
   credentials: true }));
 app.use(express.json());
 
